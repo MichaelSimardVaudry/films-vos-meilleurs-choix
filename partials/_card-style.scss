@@ -5,18 +5,18 @@
 .card {
   padding: 5px;
   margin: 5px;
-  background-color: color.adjust($primary, $whiteness: 15%);
+  background-color: $primary;
 }
 .card__btn {
   width: 100%;
   margin: 5px 0px;
   border: 0;
   color: color.complement($primary);
-  background-color: color.adjust($primary, $whiteness: 15%);
+  background-color: color.adjust($primary, $lightness: 15%);
   @include text.small-cap;
 }
 .card__btn:hover {
-  background-color: color.adjust($primary, $whiteness: 25%);
+  background-color: color.adjust($primary, $lightness: 25%);
 }
 .card__image {
   width: 100%;
