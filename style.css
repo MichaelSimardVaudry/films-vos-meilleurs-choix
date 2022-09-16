@@ -3,7 +3,7 @@
   padding: 50px;
 }
 .top-picks__header {
-  border-left: solid 5px #73BA9B;
+  border-left: solid 5px #73ba9b;
   padding-left: 20px;
 }
 .top-picks__title {
@@ -16,4 +16,25 @@
 .top-picks__wrapper {
   display: flex;
   margin: 0 -5px;
+}
+
+.top-picks {
+  background-color: #2626ff;
+}
+
+.card {
+  padding: 5px;
+  margin: 5px;
+}
+
+.card__btn {
+  width: 100%;
+  margin: 5px 0px;
+  border: 0;
+  color: yellow;
+  background-color: blue;
+}
+
+.card__btn:hover {
+  background-color: #4040ff;
 }/*# sourceMappingURL=style.css.map */

@@ -1,3 +1,19 @@
+@use "sass:color";
+
 @use "partials/top-picks";
 
+@use "partials/mixins/text";
+
 @use "partials/card-style";
+
+@import "partials/variables";
+
+.top-picks {
+  background-color: color.adjust($primary, $whiteness: 5%);
+}
+.top-picks__title {
+  color: white;
+  .top-picks__desc {
+    @include text.small-cap;
+  }
+}
